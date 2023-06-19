@@ -6,21 +6,21 @@
     <!-- Import Styles -->
     <link rel="stylesheet" href="./assets/styles.css" />
     <!-- Import Vue.js -->
-    <script src=<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   </head>
   <body>
     <div id="app">
       <h1>{{ product }}</h1>
-      <h2>Product goes here</h2>
-      <p>Green Socks</p>
+      <p>{{ description }}</p>
     </div>
 
     <!-- Import Js -->
     <script src="./main.js"></script>
   
-    <!-- Mount App  -->
+    <!-- Mount App -->
     <script>
       const mountedApp = app.mount('#app')
     </script>
+
   </body>
 </html>
