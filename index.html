@@ -10,8 +10,11 @@
   </head>
   <body>
     <div id="app">
-      <h1>{{ product }}</h1>
-      <p>{{ description }}</p>
+      <div class="product-image">
+        <img v-bind:src="image">
+      </div>
+     <h1>{{ product }}</h1> 
+     <p>{{ description }}</p>
     </div>
 
     <!-- Import Js -->
